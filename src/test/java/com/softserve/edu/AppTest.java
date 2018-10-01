@@ -23,7 +23,8 @@ public class AppTest {
 
 	@Test
 	public void testApp3() {
-		System.out.println("JENKINS_INFO = " + System.getProperty("JENKINS_INFO"));
+		System.out.println("getProperty JENKINS_INFO = " + System.getProperty("JENKINS_INFO"));
+		System.out.println("getenv JENKINS_INFO = " + System.getenv("JENKINS_INFO"));
 	}
 
 }
