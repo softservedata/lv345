@@ -21,4 +21,9 @@ public class AppTest {
 		Assert.assertEquals(expected, actual, 0.001);
 	}
 
+	@Test
+	public void testApp3() {
+		System.out.println("JENKINS_INFO = " + System.getProperty("JENKINS_INFO"));
+	}
+
 }
