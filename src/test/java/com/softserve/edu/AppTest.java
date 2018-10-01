@@ -16,7 +16,7 @@ public class AppTest {
 	@Test
 	public void testApp2() {
 		Calc calc = new Calc();
-		double expected = 7;
+		double expected = 8;
 		double actual = calc.add(2, 5);
 		Assert.assertEquals(expected, actual, 0.001);
 	}
